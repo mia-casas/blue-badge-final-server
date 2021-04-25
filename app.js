@@ -25,6 +25,7 @@ app.use('/test', (req, res) => {
 })
 
 app.use("/user", controllers.userController);
+app.use("/list", controllers.listController);
 
 // dbConnection.sync({
 //         force: true
