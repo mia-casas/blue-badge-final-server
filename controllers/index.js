@@ -1,4 +1,5 @@
 module.exports = {
     userController: require("./userController"),
-    listController: require("./listController")
+    listController: require("./listController"),
+    searchController: require("./searchcontroller")
 };
