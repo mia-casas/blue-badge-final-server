@@ -14,7 +14,7 @@ app.listen(process.env.PORT, () => {
 .catch((err) => {
     console.log(`[Server]: Server crashed. Error = ${err}`)
 });
-
+console.log("here")
 app.use(Express.json());
 app.use(headers);
 
